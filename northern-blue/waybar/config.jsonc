@@ -179,7 +179,7 @@
     
     "custom/power":{
         "format": " ",
-        "on-click": "hyprlock",
+        "on-click": "/home/adam/.config/waybar/scripts/power/power_menu.sh",
     },
 
     

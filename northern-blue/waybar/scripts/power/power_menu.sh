@@ -61,7 +61,7 @@ case ${chosen} in
     shutdown now
         ;;
     $reboot)
-    shutdown -r now
+    reboot
         ;;
     $lock)
 		hyprlock 
