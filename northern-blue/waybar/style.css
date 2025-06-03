@@ -77,16 +77,16 @@ window#waybar.hidden {
 	margin-top: 6px;
 	margin-left: 8px;
 	padding-left: 9px;
-	padding-right: 6px;
+	padding-right: 8px;
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #161320;
+	color: #ffffdd;
 	background: #2A9DB4;
 }
 
 #network:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #pulseaudio {
@@ -97,12 +97,12 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #1A1826;
+	color: white;
 	background: #1D798B;
 }
 
 #pulseaudio:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #custom-vpn {
@@ -142,12 +142,12 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #05020F;
+	color: white;
 	background: #238A9E;
 }
 
 #bluetooth:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #battery.charging, #battery.plugged {
@@ -192,12 +192,12 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #161320;
+	color: white;
 	background: #176777;
 }
 
 #clock:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #memory {
@@ -208,12 +208,12 @@ window#waybar.hidden {
 	padding-right: 10px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #161320;
+	color: white;
 	background: #1D798B;
 }
 
 #memory:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #cpu {
@@ -225,11 +225,11 @@ window#waybar.hidden {
 	border-radius: 10px;
 	transition: .5s ease;
 	background: #176777;
-	color: #161320;
+	color: white;
 }
 
 #cpu:hover{
-	color: white;
+	background: #3BAEC5;
 }
 
 #tray {
@@ -252,9 +252,14 @@ window#waybar.hidden {
 	padding-left: 10px;
 	padding-right: 0px;
 	border-radius: 10px;
-	transition: none;
+	transition: 0.5s ease;
     color: white;
     background: #115563;
+}
+
+#custom-launcher:hover {
+	background: #3BAEC5;
+	
 }
 
 #custom-power {
@@ -267,12 +272,12 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #2a263a;
+	color: white;
 	background: #115563;
 }
 
 #custom-power:hover{
-	color: white;
+	background: #2BAEC5;
 }
 
 #custom-updates {
