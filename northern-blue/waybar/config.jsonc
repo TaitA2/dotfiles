@@ -172,7 +172,7 @@
     
     "custom/launcher":{
         "format": "󰣇 ",
-        "on-click": "wofi --show drun -I",
+        "on-click": "wofi --show drun -I -c /home/adam/.config/wofi/style.css",
         "on-click-right": "killall wofi"
     },
 
