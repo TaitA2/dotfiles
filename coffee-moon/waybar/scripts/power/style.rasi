@@ -15,7 +15,6 @@ configuration {
 /*****----- Global Properties -----*****/
 @import                          "shared/colors.rasi"
 
-
 /*****----- Main Window -----*****/
 window {
     /* properties for window widget */
@@ -35,7 +34,8 @@ window {
     border-radius:               0px;
     border-color:                @selected;
     cursor:                      "default";
-    background-color:            @background;
+    background-color:            #1E2127FF;
+
 }
 
 /*****----- Main Box -----*****/
@@ -61,7 +61,7 @@ inputbar {
     border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
-    text-color:                  @foreground;
+    text-color:                  white;
     children:                    [ "textbox-prompt-colon", "prompt"];
 }
 
@@ -85,7 +85,7 @@ textbox {
     text-color:                  inherit;
     vertical-align:              0.5;
     horizontal-align:            0.5;
-    placeholder-color:           @foreground;
+    placeholder-color:           white;
     blink:                       true;
     markup:                      true;
 }
@@ -94,8 +94,8 @@ error-message {
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
-    background-color:            @background;
-    text-color:                  @foreground;
+    background-color:            #1E2127FF;
+    text-color:                  white;
 }
 
 /*****----- Listview -----*****/
@@ -118,7 +118,7 @@ listview {
     border-radius:               0px;
     border-color:                @selected;
     background-color:            transparent;
-    text-color:                  @foreground;
+    text-color:                  white;
     cursor:                      "default";
 }
 
@@ -131,8 +131,9 @@ element {
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
-    background-color:            @background-alt;
-    text-color:                  @foreground;
+    background-color:            #282B31FF;
+
+    text-color:                  white;
     cursor:                      pointer;
 }
 element-text {
