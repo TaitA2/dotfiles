@@ -1,0 +1,11 @@
+* {
+lightbg: #141a1b;
+background: #141a1b;
+lightfg: #d9c192;
+foreground: #eeeeee;
+}
+window {
+width: 25em;
+border-radius: 10px;
+}
+
