@@ -81,7 +81,7 @@ window#waybar.hidden {
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
-	color: #ffffdd;
+	color: white;
 	background: #2A9DB4;
 }
 
