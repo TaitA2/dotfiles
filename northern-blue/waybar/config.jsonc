@@ -63,7 +63,7 @@
         "tooltip-format-wifi": "{essid:^15}\n{ipaddr:^15}",
         "tooltip-format-disconnected": "{icon} disconnected",
         "tooltip-format-disabled": "{icon} disabled",
-        "on-click": "nm-connection-editor"
+        "on-click": "kitty --title nmtui -e nmtui"
     },
 
 	

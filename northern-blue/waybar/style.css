@@ -35,13 +35,13 @@ window#waybar.hidden {
 	font-size: 4px;
 	margin-bottom: 0px;
 	border-radius: 10px;
-	background: #161320;
+	background: white;
 	transition: none;
 }
 
 #workspace button {
 	transition: none;
-	color: #B5E8E0;
+	color: white;
 	background: transparent;
 	font-size: 16px;
 	border-radius: 2px;
@@ -49,7 +49,7 @@ window#waybar.hidden {
 
 #workspace button.occupied {
 	transition: none;
-	color: #F28FAD;
+	color: white;
 	background: transparent;
 	font-size: 4px;
 }
@@ -75,9 +75,9 @@ window#waybar.hidden {
 
 #network {
 	margin-top: 6px;
-	margin-left: 8px;
+	margin-left: 10px;
 	padding-left: 9px;
-	padding-right: 8px;
+	padding-right: 4px;
 	margin-bottom: 0px;
 	border-radius: 10px;
 	transition: .5s ease;
